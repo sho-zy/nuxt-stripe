@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-stripe",
+  "version": "1.0.0",
+  "description": "My dandy Nuxt.js project",
+  "author": "sho-zy",
+  "private": true,
+  "scripts": {
+    "dev": "netlify-lambda serve functions/api --config webpack.functions.js & nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "netlify-lambda build functions/api & nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.3",
+    "dotenv-webpack": "^1.8.0",
+    "netlify-lambda": "^1.6.3",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.2",
+    "stripe": "^8.54.0",
+    "vue-stripe-elements-plus": "^0.3.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
