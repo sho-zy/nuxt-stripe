@@ -15,7 +15,7 @@
     "@nuxtjs/axios": "^5.10.3",
     "dotenv-webpack": "^1.8.0",
     "netlify-lambda": "^1.6.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "nuxt": "^2.0.0",
     "sass-loader": "^8.0.2",
     "stripe": "^8.54.0",
